@@ -5,6 +5,8 @@ var peerConnection;
 var uuid;
 var serverConnection;
 
+
+
 var peerConnectionConfig = {
   'iceServers': [
     {'urls': 'stun:stun.stunprotocol.org:3478'},
